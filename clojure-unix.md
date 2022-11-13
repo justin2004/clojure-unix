@@ -72,38 +72,38 @@
 
 ## Strangely Similar
 
-Clojure         | Unix
-----------------|------
-lists of maps   | tables (tab separated lines)
-`->` `->>`      | pipes, `tee`
-`filter`        | `find`, `grep`
-`map`, `apply`  | call, `xargs`
-conditions      | `test`
-strings, regex  | `sed`, `awk`, `tr`
-Prismatic Graph | `make`
-`pmap`          | `parallel`
+Clojure         | Unix | APL
+----------------|------|-----
+lists of maps   | tables (tab separated lines) |
+`->` `->>`      | pipes, `tee` | right to left execution
+`filter`        | `find`, `grep` | `⍳`,`⍸`,`∊`,`⍷`,`=`,`≡`
+`map`, `apply`  | call, `xargs` | `¨`
+conditions      | `test` | `≥`,`>`,`=`,`≠`,`≤`,`<`,`∨`,`∧`, etc.
+strings, regex  | `sed`, `awk`, `tr` | 
+Prismatic Graph | `make` | 
+`pmap`          | `parallel` | 
 
 ## List Manipulation
 
-Clojure          | Unix
------------------|------
-`conj`, `concat` | `cat`
-`take`, `drop`   | `head`, `tail`
-`sort`           | `sort`
-`count`          | `wc`
-`distinct`       | `uniq`
-`frequencies`    | `uniq -c`
-`range`          | `seq`
-`shuffle`        | `shuf`
+Clojure          | Unix | APL
+-----------------|------|-----
+`conj`, `concat` | `cat` |  `,`
+`take`, `drop`   | `head`, `tail` | `↑`,`↓`
+`sort`           | `sort` | `⍒`,`⍋`
+`count`          | `wc` | `≢`
+`distinct`       | `uniq` | `∪`
+`frequencies`    | `uniq -c` | `{(⊣,≢)⌸⍵}`
+`range`          | `seq` | `⍳`
+`shuffle`        | `shuf` | `{⍵[?⍨⍴⍵]}`
 
 ## Other Stuff
 
-Clojure           | Unix
-------------------|------
-`slurp`           | `curl`
-`assoc`, `dissoc` | `cut`, `join`
-`println`         | `echo`
-`str`, `format`   | `paste`, `printf`
+Clojure           | Unix | APL
+------------------|------|----
+`slurp`           | `curl` | 
+`assoc`, `dissoc` | `cut`, `join` | 
+`println`         | `echo` | 
+`str`, `format`   | `paste`, `printf` | 
 
 ## But, but, but!
 
