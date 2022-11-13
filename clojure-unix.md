@@ -76,7 +76,7 @@ Clojure         | Unix | APL
 ----------------|------|-----
 lists of maps   | tables (tab separated lines) |
 `->` `->>`      | pipes, `tee` | right to left execution
-`filter`        | `find`, `grep` | `⍳`,`⍸`,`∊`,`⍷`,`=`,`≡`
+`filter`        | `find`, `grep` | `⍳`,`⍸`,`∊`,`⍷`,`=`,`≡`, etc.
 `map`, `apply`  | call, `xargs` | `¨`
 conditions      | `test` | `≥`,`>`,`=`,`≠`,`≤`,`<`,`∨`,`∧`, etc.
 strings, regex  | `sed`, `awk`, `tr` | 
