@@ -81,7 +81,7 @@ lists of maps   | tables (tab separated lines) | rank 2 array (matrix)
 conditions      | `test` | `≥`,`>`,`=`,`≠`,`≤`,`<`,`∨`,`∧`, etc.
 strings, regex  | `sed`, `awk`, `tr` | character vectors, regex
 Prismatic Graph | `make` | [graphs](https://dfns.dyalog.com/s_Graphs.htm)
-`pmap`          | `parallel` | `[¨](https://github.com/phantomics/april)`
+`pmap`          | `parallel` | [¨](https://github.com/phantomics/april)
 
 ## List Manipulation
 
