@@ -74,7 +74,7 @@
 
 Clojure         | Unix | APL
 ----------------|------|-----
-lists of maps   | tables (tab separated lines) |
+lists of maps   | tables (tab separated lines) | rank 2 array (matrix)
 `->` `->>`      | pipes, `tee` | right to left execution
 `filter`        | `find`, `grep` | `⍳`,`⍸`,`∊`,`⍷`,`=`,`≡`, etc.
 `map`, `apply`  | call, `xargs` | `¨`
