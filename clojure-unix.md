@@ -79,8 +79,8 @@ lists of maps   | tables (tab separated lines) | rank 2 array (matrix)
 `filter`        | `find`, `grep` | `⍳`,`⍸`,`∊`,`⍷`,`=`,`≡`, etc.
 `map`, `apply`  | call, `xargs` | `¨`
 conditions      | `test` | `≥`,`>`,`=`,`≠`,`≤`,`<`,`∨`,`∧`, etc.
-strings, regex  | `sed`, `awk`, `tr` | 
-Prismatic Graph | `make` | 
+strings, regex  | `sed`, `awk`, `tr` | character vectors, regex
+Prismatic Graph | `make` | [graphs](https://dfns.dyalog.com/s_Graphs.htm)
 `pmap`          | `parallel` | 
 
 ## List Manipulation
@@ -103,7 +103,7 @@ Clojure           | Unix | APL
 `slurp`           | `curl` | 
 `assoc`, `dissoc` | `cut`, `join` | `,`,`~`
 `println`         | `echo` | 
-`str`, `format`   | `paste`, `printf` | 
+`str`, `format`   | `paste`, `printf` | `⍕` 
 
 ## But, but, but!
 
