@@ -101,7 +101,7 @@ Clojure          | Unix | APL
 Clojure           | Unix | APL
 ------------------|------|----
 `slurp`           | `curl` | 
-`assoc`, `dissoc` | `cut`, `join` | ',','~'
+`assoc`, `dissoc` | `cut`, `join` | `,`,`~`
 `println`         | `echo` | 
 `str`, `format`   | `paste`, `printf` | 
 
